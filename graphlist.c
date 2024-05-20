@@ -49,7 +49,6 @@ int visited(int arr[], int i ) {
 
 Stack* create_stack() {
     Stack* stack = (Stack*)malloc(sizeof(Stack));
-    //check whether memory is given or not
     stack->top = -1;
     return stack;
 }
